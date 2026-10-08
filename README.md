@@ -37,7 +37,7 @@ Proje, hem matematiği ve arka plandaki algoritmaları (**Teorik Katman**) hem d
 | ✅ | [**05-PyTorchDeviceSettings.ipynb**](./05-PyTorchDeviceSettings.ipynb) | Donanım ivmelendirme (CUDA / Apple Silicon MPS), `tensor.to(device)`, cihaz uyuşmazlığı hataları ve MPS/CUDA'dan NumPy'a geçerken `.cpu().numpy()` kuralı. |
 | ✅ | [**06-PyTorchTrainingSteps.ipynb**](./06-PyTorchTrainingSteps.ipynb) | Custom `nn.Module` Doğrusal Regresyon modeli, `requires_grad=True`, `inference_mode()`, `MSELoss()`, `SGD()` ve PyTorch'un 5 Adımlı Standart Eğitim Döngüsü. |
 | ✅ | [**07-PyTorchTrainingStructural.ipynb**](./07-PyTorchTrainingStructural.ipynb) | Dahili `nn.Linear(in_features, out_features)` kullanımı, `dtype=torch.float32` zorunluluğu, 2D `(batch_size, in_features)` boyut hazırlığı (`.unsqueeze(1)`), kayıp takibi ve görselleştirme. |
-| 🔄 | **08 - Sınıflandırma (Classification) Temelleri** | *(İşlenecek)* Çoklu sınıf & İkili sınıflandırma (Binary Classification), Logits, Sigmoid & Softmax aktivasyonları, CrossEntropyLoss. |
+| ✅ | [**08-LinearVsNonLinear.ipynb**](./08-LinearVsNonLinear.ipynb) | İkili Sınıflandırma (Binary Classification), Logits -> Sigmoid -> Pred Labels dönüşüm zinciri, `nn.BCEWithLogitsLoss`, manuel Accuracy metriği ve Doğrusal Karar Sınırı (Decision Boundary) çizimi. |
 | 🔄 | **09 - Bilgisayarlı Görü (Computer Vision) & CNN** | *(İşlenecek)* Evrişimli Sinir Ağları (CNN), Conv2D, MaxPool2D, Flatten ve Görsel İşleme Mimarisi. |
 | 🔄 | **10 - PyTorch DataLoader & Dataset Yapısı** | *(İşlenecek)* Özel Veri Setleri (Custom Datasets), `Dataset` sınıfı, `DataLoader`, Batchleme ve Shuffle mekanizması. |
 | 🔄 | **11 - Model Değerlendirme & Metrikler** | *(İşlenecek)* Accuracy, Precision, Recall, F1-Score, Confusion Matrix ve TensorBoard entegrasyonu. |
