@@ -20,3 +20,8 @@ yol hartiası/
 Derin Öğrenme Notlar/
 Derin Öğrenme Notlar/
 PyTorch_ve_Derin_Ogrenme_Mulakat_Rehberi.pdf
+
+# Datasets (large files like CIFAR-10)
+data/
+*.tar.gz
+*.zip

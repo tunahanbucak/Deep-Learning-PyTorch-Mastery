@@ -41,10 +41,13 @@ Proje, hem matematiği ve arka plandaki algoritmaları (**Teorik Katman**) hem d
 | ✅ | [**08-HomeworkSeismic.ipynb**](./08-HomeworkSeismic.ipynb) | **Ödev & Lab:** Sismik Aktivite Sınıflandırması. Doğrusal modelin çöküşü (Test Acc: %47.50) vs `nn.ReLU()` Non-Linear modelin zaferi (Test Acc: %100.00) ve Karar Sınırı kıyaslaması. |
 | ✅ | [**09-MultiClassClassification.ipynb**](./09-MultiClassClassification.ipynb) | Çoklu Sınıflandırma (Multi-Class), Iris Veri Seti, Logits -> Softmax -> Argmax zinciri, `nn.CrossEntropyLoss`, `torchmetrics` Confusion Matrix ve Model Kaydetme/Yükleme (`.pth`). |
 | ✅ | [**HomeworkMultiClassClassification.ipynb**](./HomeworkMultiClassClassification.ipynb) | **Ödev & Lab:** Palmer Penguins Çoklu Sınıflandırma. Eksik veri (`NaN`) yönetimi, `LabelEncoder`, `StandardScaler` vaka analizi (%43'ten %100'e başarı sıçraması), Confusion Matrix ve Canlı Tahmin (Inference). |
-| 🔄 | **10 - PyTorch DataLoader & Dataset Yapısı** | *(İşlenecek)* Özel Veri Setleri (Custom Datasets), `Dataset` sınıfı, `DataLoader`, Batchleme ve Shuffle mekanizması. |
-| 🔄 | **11 - Model Değerlendirme & Metrikler** | *(İşlenecek)* Accuracy, Precision, Recall, F1-Score, Confusion Matrix ve TensorBoard entegrasyonu. |
-| 🔄 | **12 - Transfer Learning (Transfer Öğrenme)** | *(İşlenecek)* Önceden eğitilmiş modeller (ResNet, EfficientNet vb.), Feature Extraction ve Fine-Tuning. |
-| 🔄 | **13-16 - İleri Seviye PyTorch & Projeler** | *(İşlenecek)* Gerçek hayat uçtan uca derin öğrenme projeleri ve yayınlama (Deployment). |
+| ✅ | [**Homework-GlassClassification.ipynb**](./Homework-GlassClassification.ipynb) | **Ödev & Lab:** Cam Türü Sınıflandırması. Dengesiz veri analizi, `StandardScaler`, Dropout/L2 ve çoklu sınıflandırma (%69.77 Test Doğruluğu). |
+| ✅ | [**Homework-WheatSeedsClassification.ipynb**](./Homework-WheatSeedsClassification.ipynb) | **Ödev & Lab:** Buğday Tohumu Sınıflandırması (%85.71 Test Doğruluğu, model serileştirme ve FastAPI web servisi entegrasyonu). |
+| ✅ | [**10-IntroToComputerVision.ipynb**](./10-IntroToComputerVision.ipynb) | **Bilgisayarlı Görüye Giriş:** CIFAR-10 veri seti, Torchvision Transforms, DataLoader, Model 0 (Linear) vs Model 1 (Non-Linear) vs Model 2 (TinyVGG CNN) karşılaştırması ve görsel test tahminleri. |
+| ✅ | [**11-CNNDeepDive.ipynb**](./11-CNNDeepDive.ipynb) | **CNN Derinlemesine İnceleme:** 4D tensör anatomisi `[B, C, H, W]`, `nn.Conv2d` parametreleri, uzamsal boyut formülü ($O = \lfloor\frac{W-K+2P}{S}\rfloor + 1$), `nn.MaxPool2d` ve `hidden_units * 8 * 8` sınıflandırıcı bağlantısı. |
+| 🔄 | **12 - Custom Image Datasets & ImageFolder** | *(İşlenecek)* Kendi görsel veri setimizi yükleme, `ImageFolder`, özel transforms ve veri artırma (Data Augmentation). |
+| 🔄 | **13 - Transfer Learning (Transfer Öğrenme)** | *(İşlenecek)* Önceden eğitilmiş modeller (ResNet, EfficientNet vb.), Feature Extraction ve Fine-Tuning. |
+| 🔄 | **14-16 - İleri Seviye PyTorch & Deployment** | *(İşlenecek)* Gerçek hayat uçtan uca derin öğrenme projeleri ve yayınlama. |
 
 ---
 
