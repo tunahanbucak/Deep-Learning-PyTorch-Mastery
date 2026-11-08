@@ -45,7 +45,7 @@ Proje, hem matematiği ve arka plandaki algoritmaları (**Teorik Katman**) hem d
 | ✅ | [**Homework-WheatSeedsClassification.ipynb**](./Homework-WheatSeedsClassification.ipynb) | **Ödev & Lab:** Buğday Tohumu Sınıflandırması (%85.71 Test Doğruluğu, model serileştirme ve FastAPI web servisi entegrasyonu). |
 | ✅ | [**10-IntroToComputerVision.ipynb**](./10-IntroToComputerVision.ipynb) | **Bilgisayarlı Görüye Giriş:** CIFAR-10 veri seti, Torchvision Transforms, DataLoader, Model 0 (Linear) vs Model 1 (Non-Linear) vs Model 2 (TinyVGG CNN) karşılaştırması ve görsel test tahminleri. |
 | ✅ | [**11-CNNDeepDive.ipynb**](./11-CNNDeepDive.ipynb) | **CNN Derinlemesine İnceleme:** 4D tensör anatomisi `[B, C, H, W]`, `nn.Conv2d` parametreleri, uzamsal boyut formülü ($O = \lfloor\frac{W-K+2P}{S}\rfloor + 1$), `nn.MaxPool2d` ve `hidden_units * 8 * 8` sınıflandırıcı bağlantısı. |
-| 🔄 | **12 - Custom Image Datasets & ImageFolder** | *(İşlenecek)* Kendi görsel veri setimizi yükleme, `ImageFolder`, özel transforms ve veri artırma (Data Augmentation). |
+| ✅ | [**12-Desert101.ipynb**](./12-Desert101.ipynb) | **Özel Veri Seti (Custom Dataset) & CNN:** Food-101 (Desert101), `ImageFolder`, `torchinfo` model özeti, modüler `train_step`/`test_step`, tekil görsel çıkarımı (`inference`) ve Veri Artırma (Data Augmentation) deneyi (%37.9 -> %51.8). |
 | 🔄 | **13 - Transfer Learning (Transfer Öğrenme)** | *(İşlenecek)* Önceden eğitilmiş modeller (ResNet, EfficientNet vb.), Feature Extraction ve Fine-Tuning. |
 | 🔄 | **14-16 - İleri Seviye PyTorch & Deployment** | *(İşlenecek)* Gerçek hayat uçtan uca derin öğrenme projeleri ve yayınlama. |
 
